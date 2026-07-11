@@ -1,7 +1,7 @@
 import os
 
 # Configuration Constants
-BASE_DIR = r"F:\CSE445 Project\data"
+BASE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 IMG_SIZE = (224, 224)
 BATCH_SIZE = 32
 
